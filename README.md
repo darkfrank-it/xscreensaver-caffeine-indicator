@@ -3,12 +3,11 @@ Modification of caffeine-indicator for xscreensaver
 
 Based on https://code.launchpad.net/caffeine
 
-This script need the original project resource to work, so you have to download it under xscreensaver-caffeine folder inside your home. Put here this script too.
+# Install
+
+Donwload the file uder a folder of your choise, then make executable the python script and create a convenience shortcut to run directly.
 
 ~~~
-sudo apt-get install bzr
-cd /home/$USER/xscreensaver-caffeine
-bzr branch lp:caffeine
 chmod +x xscreensaver-caffeine-indicator
 sudo ln -s /home/$USER/xscreensaver-caffeine/xscreensaver-caffeine-indicator /usr/local/bin/xscreensaver-caffeine-indicator
 ~~~
@@ -21,7 +20,7 @@ sudo nano /usr/share/applications/xscreensaver-caffeine-indicator.desktop
 
 ~~~
 [Desktop Entry]
-Icon=/home/nicola/laboratorio/xscreensaver-caffeine/caffeine/share/icons/ubuntu-mono-dark/status/scalable/caffeine-cup-full.svg
+Icon=caffeine-cup-full
 Name=XScreenSaver Caffeine Indicator
 Comment=Manually control activation of the screensaver and sleep mode
 Exec=/usr/local/bin/xscreensaver-caffeine-indicator
@@ -33,4 +32,8 @@ OnlyShowIn=GNOME;KDE;LXDE;LXQt;MATE;Razor;ROX;TDE;Unity;XFCE;EDE;Cinnamon;Panthe
 StartupNotify=false
 ~~~
 
-And then you can make autostarting the script from the settings od your DE. 
+And then you can make autostarting the script from the settings of your DE or by adding a link in autostart folder: 
+
+~~~
+ln -s /usr/share/applications/xscreensaver-caffeine-indicator.desktop /home/$USER/.config/autostart/xscreensaver-caffeine-indicator.desktop
+~~~
