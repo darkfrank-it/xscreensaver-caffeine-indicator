@@ -8,7 +8,7 @@ Based on https://code.launchpad.net/caffeine
 # Installation
 
 ~~~bash
-sudo dpkg -i xscreensaver-caffeine-1.0.0-Linux.deb
+sudo dpkg -i xscreensaver-caffeine-indicator-1.0.2-Linux.deb
 ~~~
 
 ## Manual run:

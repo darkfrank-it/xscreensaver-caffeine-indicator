@@ -4,9 +4,7 @@ Maintainer: github.com/darkfrank-it/xscreensaver-caffeine-indicator
 Package: xscreensaver-caffeine-indicator
 Priority: optional
 Section: misc
-Version: 1.0.1
-Depends: python3, gir1.2-gtk-3.0, gir1.2-appindicator3-0.1,
- python3-xlib, python3-pkg-resources, python3-gi, python3-ewmh,
- xdg-utils (>= 1.1.1)
+Version: 1.0.2
+Depends: python3, gir1.2-gtk-3.0, gir1.2-appindicator3-0.1
 Description: A desktop indicator ‘caffeine-indicator’ supplies a manual toggle to prevent xscreensaver to start.
 
