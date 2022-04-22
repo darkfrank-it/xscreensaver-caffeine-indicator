@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 #
 # Copyright © 2022 Nicola Danese
+# Based on: http://launchpad.net/caffeine
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
