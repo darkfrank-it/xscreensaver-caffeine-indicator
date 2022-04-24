@@ -15,6 +15,7 @@ pip install python3_xlib
 sudo apt install gir1.2-ayatanaappindicator3-0.1
 ~~~
 
+### Program
 ~~~bash
 sudo dpkg -i xscreensaver-caffeine-indicator-1.0.3-Linux.deb
 ~~~
