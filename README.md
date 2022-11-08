@@ -1,5 +1,15 @@
 # xscreensaver-caffeine-indicator
 
+
+****************************************
+****************************************
+⚠️⚠️ **Project discontinued in favor of xscreensaver-caffeine-rs, a more efficent and memory-saving. Check it out here: https://github.com/darkfrank-it/xscreensaver-caffeine-rs** ⚠️⚠️
+****************************************
+****************************************
+
+
+
+
 Modification of caffeine-indicator for work with xscreensaver.
 A desktop indicator ‘caffeine-indicator’ supplies a manual toggle to prevent xscreensaver to start.
 
